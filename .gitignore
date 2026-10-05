@@ -1,0 +1,19 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Runtime artifacts / logs
+*.log
+*.pcap
+*.pcapng
+
+# Secrets — never commit credentials
+.env
+*.env
+credentials*
+*.pcm
+
+# Editor/OS noise
+.DS_Store
+*.swp
